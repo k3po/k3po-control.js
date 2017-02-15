@@ -1,0 +1,28 @@
+{
+  "name": "k3po-control",
+  "version": "0.1.0",
+  "description": "K3PO control protocol client",
+  "main": "lib/Control.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k3po/k3po-control.js.git"
+  },
+  "keywords": [
+    "k3po",
+    "control",
+    "javascript"
+  ],
+  "devDependencies": {
+    "sinon": "1.17.2",
+    "mocha": "2.3.3"
+  },
+  "author": "k3po developers",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/k3po/k3po-control.js/issues"
+  },
+  "homepage": "https://github.com/k3po/k3po-control.js#readme"
+}
