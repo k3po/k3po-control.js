@@ -1,5 +1,3 @@
-'use strict';
-
 var K3poControl = require('../lib/Control.js');
 var AbortCommand = require('../lib/commands/AbortCommand.js');
 var AwaitCommand = require('../lib/commands/AwaitCommand.js');

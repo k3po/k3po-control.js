@@ -4,7 +4,10 @@
   "description": "K3PO control protocol client",
   "main": "lib/Control.js",
   "scripts": {
-    "test": "mocha"
+    "lint": "jshint lib/**/*.js test/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "build": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -17,7 +20,8 @@
   ],
   "devDependencies": {
     "sinon": "1.17.2",
-    "mocha": "2.3.3"
+    "mocha": "2.3.3",
+    "jshint": "2.9.4"
   },
   "author": "k3po developers",
   "license": "Apache-2.0",
